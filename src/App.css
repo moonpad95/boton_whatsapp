@@ -6,7 +6,18 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+.nombre{
+  background-color: #61dafb;
+  color: aliceblue;
+}
+.ruta1{
+  background-color: #282c34;
+  color: aliceblue;
+}
+.ruta2{
+  background-color: rgb(39, 24, 3);
+  color: #61dafb;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -36,3 +47,16 @@
     transform: rotate(360deg);
   }
 }
+.github-button {
+  background-color: #24292e;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.github-button:hover {
+  background-color: #6e7681;
+}
+
